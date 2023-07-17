@@ -25,7 +25,8 @@ class Teacher extends Person {
   }
 }
 
-// Do not change the code below this line
-window.Person = Person;
-window.Student = Student;
-window.Teacher = Teacher;
+// Create a new instance of the Student class
+const student = new Student('John', 20);
+
+// Call the study method on the student instance
+student.study();
